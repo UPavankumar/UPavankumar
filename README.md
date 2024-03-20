@@ -4,7 +4,7 @@
 
 <div id="badges">
   <a href="https://www.linkedin.com/in/u-pavankumar/">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" width="150" height="25" alt="LinkedIn Badge"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" width="125" height="25" alt="LinkedIn Badge"/>
   </a>
   <a>
   <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
