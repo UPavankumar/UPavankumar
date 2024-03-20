@@ -9,7 +9,7 @@
 </div>
 
 
-<img src ="https://github-readme-streak-stats.herokuapp.com/?user=UPavankumar"/>
+<img src ="https://github-readme-streak-stats.herokuapp.com/?user=UPavankumar"/><br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UPavankumar"/>
 
 <div>
