@@ -6,8 +6,8 @@
   <a href="https://www.linkedin.com/in/u-pavankumar/">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo.svg/2560px-LinkedIn_Logo.svg.png" width="125" height="25" alt="LinkedIn Badge"/>
   </a>
-  <a>
-  <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  <a href="https://stackoverflow.com/users/16403693/u-pavan-kumar">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Stack_Overflow.png" width="125" height="25" alt="Youtube Badge"/>
   </a>
   <a>
   <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
