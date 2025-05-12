@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Pavan Kumar</h1>
-<h3 align="center">Data Analyst | AI & Machine Learning Enthusiast | Business Intelligence</h3>
+<h3 align="center">Data Analyst | AI & Machine Learning Enthusiast | Python Developer</h3>
 
 <p align="center">
   Bengaluru, India • 📧 <a href="mailto:u.pavankumar2002@gmail.com">u.pavankumar2002@gmail.com</a><br/>
@@ -8,35 +8,28 @@
 
 ---
 
-### 🧑‍💻 About Me
+### 🚀 Featured Projects
 
-- 🔭 Data Analyst Consultant at **Spire Technologies** | Ex-Edureka Marketing Research Analyst Intern
-- 🧠 Skilled in Python, SQL, Power BI, Scikit-learn, TensorFlow, PyTorch, and NLP
-- 📊 Experienced in EDA, feature engineering, business intelligence, and automating reporting
-- 💡 Passionate about building ML models and delivering actionable insights
-- 🌱 Always learning: Advanced ML, Generative AI, and business analytics
+- [Data-Analysis-Projects](https://github.com/UPavankumar/Data-Analysis-Projects)  
+  A collection of data analysis projects using Jupyter Notebooks, showcasing data pipelines, exploratory data analysis, and visualization techniques.
 
----
+- [Portfolio-FE](https://github.com/UPavankumar/Portfolio-FE)  
+  Frontend portfolio built with HTML demonstrating responsive design and UI skills.
 
-### 🚀 Projects
+- [Twitter_Discord_verification_bot](https://github.com/UPavankumar/Twitter_Discord_verification_bot)  
+  A Python Discord bot that streamlines Twitter account verification by allowing users to authenticate their Twitter accounts and receive a "Twitter_verified" role automatically.
 
-- **E-commerce Churn Prediction**  
-  Developed a churn prediction model using XGBoost and GridSearchCV, achieving 85% precision and automating feature engineering.
+- [vertechx-website](https://github.com/UPavankumar/vertechx-website)  
+  A JavaScript-based website project demonstrating interactive web development skills.
 
-- **Portfolio Assistant Chatbot**  
-  Built an AI chatbot with Streamlit, Python, and llama, using RAG for real-time responses and deployed on Streamlit Cloud.
-
-- **NLP Content Analytics**  
-  Applied NLP for content analytics, improving engagement by 20% during Edureka internship.
+- [Portfolio_Assistant](https://github.com/UPavankumar/Portfolio_Assistant)  
+  An AI-powered chatbot built with Python and llama, integrated with Retrieval-Augmented Generation (RAG) for real-time personalized responses. (Bot deployment coming soon!)
 
 ---
 
 ### 🛠️ Skills & Tools
 
-**Languages:** Python, SQL, R, Java, JavaScript  
-**Tools:** Power BI, Tableau, Excel, Google Analytics, Git, AWS (EC2, S3), MongoDB, Snowflake, Spark  
-**ML Frameworks:** Scikit-learn, XGBoost, TensorFlow, PyTorch, NLP, GridSearchCV  
-**Techniques:** EDA, Data Cleaning, Feature Engineering, A/B Testing, Classification, Regression, Time Series
+Python | SQL | Power BI | Scikit-learn | TensorFlow | PyTorch | NLP | Jupyter Notebook | JavaScript | HTML | AWS | MongoDB
 
 ---
 
@@ -49,21 +42,11 @@
 
 ---
 
-### 🎓 Certifications
-
-- Google Data Analytics (Coursera)
-- Google Project Management (Coursera)
-- Smart Contracts (SUNY)
-- HackerRank: Problem Solving (Basic), Software Engineer, Python
-- Google: Fundamentals of Digital Marketing
-
----
-
 ### 📫 Contact Me
 
-- Email: <a href="mailto:u.pavankumar2002@gmail.com">u.pavankumar2002@gmail.com</a>
-- LinkedIn: [linkedin.com/in/u-pavankumar](https://linkedin.com/in/u-pavankumar)
-- Portfolio: [portfolio-u-pavan-kumar.web.app](https://portfolio-u-pavan-kumar.web.app)
+- Email: <a href="mailto:u.pavankumar2002@gmail.com">u.pavankumar2002@gmail.com</a>  
+- LinkedIn: <a href="https://linkedin.com/in/u-pavankumar">linkedin.com/in/u-pavankumar</a>  
+- Portfolio: <a href="https://portfolio-u-pavan-kumar.web.app">portfolio-u-pavan-kumar.web.app</a>
 
 ---
 
