@@ -64,7 +64,7 @@
 
 - 🧩 I’m obsessed with building **autonomous agents**
 - 🌍 Built 4 blockchain projects (NFTs, dApps, Cardinal staking)
-- 🎯 Mission 2025: Be **T-shaped across AI, DevOps & Web3**
+- 🎯 Mission 2026: Be **T-shaped across AI, Data Engineering & Web3**
 - 🧠 Favorite quote: *"Simple can be harder than complex" – Steve Jobs*
 
 ---
