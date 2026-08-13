@@ -25,7 +25,7 @@ AI Engineer with hands-on experience architecting production-grade enterprise AI
 
 ---
 
-## 🛠️ Tech Stack & Enterprise Tools
+## 🧠 Tech Stack & Enterprise Tools
 
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
@@ -41,10 +41,14 @@ AI Engineer with hands-on experience architecting production-grade enterprise AI
 
 ## 📊 GitHub Stats & Activity
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: space-evenly; gap: 40px;">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=UPavankumar&theme=tokyonight&hide_border=false&stroke=ffffff&ring=7C3AED" height="200" />
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: space-evenly; gap: 20px;">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com/?user=UPavankumar&theme=tokyonight&hide_border=false" alt="GitHub Streak" height="195" />
+  </a>
   
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UPavankumar&layout=compact&theme=tokyonight&langs_count=8" height="200" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UPavankumar&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages" height="195" />
+  </a>
 </div>
 
 ---
