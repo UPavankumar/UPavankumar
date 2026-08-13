@@ -42,9 +42,7 @@ AI Engineer with hands-on experience architecting production-grade enterprise AI
 ## 📊 GitHub Stats & Activity
 
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=UPavankumar&theme=tokyonight&hide_border=false&stroke=ffffff&ring=7C3AED" height="200" alt="GitHub Streak" />
-  </a>
+  [![GitHub Streak](https://streak-stats.demolab.com?user=UPavankumar&theme=dark&border_radius=4.6&short_numbers=true&mode=weekly&card_width=900)](https://git.io/streak-stats)
 </div>
 
 ---
