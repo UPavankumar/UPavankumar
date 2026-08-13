@@ -41,10 +41,8 @@ AI Engineer with hands-on experience architecting production-grade enterprise AI
 
 ## 📊 GitHub Stats & Activity
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: space-evenly; gap: 20px;">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=UPavankumar&theme=tokyonight&hide_border=false" alt="GitHub Streak" height="195" />
-  </a>
+<div align="center" style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+  [![GitHub Streak](https://streak-stats.demolab.com?user=UPavankumar&theme=dark&hide_border=true&mode=weekly&card_width=600)](https://git.io/streak-stats)
   
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UPavankumar&layout=compact&theme=tokyonight&langs_count=8" alt="Top Languages" height="195" />
