@@ -41,9 +41,7 @@ AI Engineer with hands-on experience architecting production-grade enterprise AI
 
 ## 📊 GitHub Contribution & Activity Dashboard
 
-<p align="center">
-  [![GitHub Streak](https://streak-stats.demolab.com?user=UPavankumar&theme=dark&mode=weekly&card_width=900)](https://git.io/streak-stats)
-</p>
+[![GitHub Streak](https://streak-stats.demolab.com?user=UPavankumar&theme=dark&mode=weekly&card_width=900)](https://git.io/streak-stats)
 
 ---
 
