@@ -8,6 +8,7 @@ import html
 import math
 import os
 import random
+import re
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "images")
 SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Inter,Arial,sans-serif"
@@ -27,12 +28,38 @@ def esc(s):
     return html.escape(s, quote=True)
 
 
+# Dark palette -> GitHub light palette. Every asset except the buttons also gets a
+# "-light.svg" twin; the README picks one per viewer via <picture> + prefers-color-scheme.
+LIGHT = {
+    # surfaces and borders
+    "#0B0E14": "#FFFFFF", "#0D1117": "#FFFFFF", "#161B22": "#F6F8FA", "#21262D": "#EAEEF2",
+    "#30363D": "#D0D7DE", "#484F58": "#8C959F",
+    # text
+    "#E6EDF3": "#1F2328", "#C9D1D9": "#424A53", "#8B949E": "#59636E", "#6E7681": "#6E7781",
+    # accents, darkened for contrast on white
+    "#A78BFA": "#7C3AED", "#C4B5FD": "#6D28D9", "#E9D5FF": "#8B5CF6", "#60A5FA": "#2563EB",
+    "#22D3EE": "#0891B2", "#79C0FF": "#0969DA", "#A5D6FF": "#0A3069", "#D2A8FF": "#8250DF",
+    "#FF7B72": "#CF222E", "#3FB950": "#1A7F37",
+    # badge and chip fills
+    "#0F2A1A": "#DAFBE1", "#1E1433": "#F3E8FF", "#0C1D33": "#DDF4FF",
+}
+
+
+def to_light(body):
+    body = re.sub(r"#[0-9A-Fa-f]{6}\b", lambda m: LIGHT.get(m.group().upper(), m.group()), body)
+    return body.replace('flood-opacity=".55"', 'flood-opacity=".12"')
+
+
 def write(rel, body):
-    path = os.path.join(OUT, rel)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(body)
-    print(f"wrote {rel} ({len(body.encode()) / 1024:.1f} KB)")
+    variants = [(rel, body)]
+    if not rel.startswith("buttons/"):
+        variants.append((rel.replace(".svg", "-light.svg"), to_light(body)))
+    for name, content in variants:
+        path = os.path.join(OUT, name)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(content)
+        print(f"wrote {name} ({len(content.encode()) / 1024:.1f} KB)")
 
 
 def svg_open(w, h, label, css=""):

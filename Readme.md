@@ -1,36 +1,36 @@
 <p align="center">
-  <img src="images/hero.svg" width="100%" alt="Pavan Kumar — AI Engineer. I build AI agents, real-time voice AI and automation that runs real operations."/>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/hero-light.svg"/><img src="images/hero.svg" width="100%" alt="Pavan Kumar — AI Engineer. I build AI agents, real-time voice AI and automation that runs real operations."/></picture>
 </p>
 
 <p align="center">
-  <a href="https://pavan-kumar.is-a.dev"><img src="images/buttons/portfolio.svg" height="44" alt="Portfolio"/></a>&nbsp;
+  <a href="https://portfolio-u-pavankumar.web.app"><img src="images/buttons/portfolio.svg" height="44" alt="Portfolio"/></a>&nbsp;
   <a href="https://linkedin.com/in/u-pavankumar"><img src="images/buttons/linkedin.svg" height="44" alt="LinkedIn"/></a>&nbsp;
   <a href="mailto:pavan.aidev@gmail.com"><img src="images/buttons/email.svg" height="44" alt="Email pavan.aidev@gmail.com"/></a>
 </p>
 
 <p align="center">
-  <img src="images/impact.svg" width="100%" alt="2,000+ financial documents processed per month · 100K+ records through Python–SQL pipelines · 6 AI and ML systems built · 4 LLM fallback layers per answer"/>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/impact-light.svg"/><img src="images/impact.svg" width="100%" alt="2,000+ financial documents processed per month · 100K+ records through Python–SQL pipelines · 6 AI and ML systems built · 4 LLM fallback layers per answer"/></picture>
 </p>
 
 ## ⚡ `whoami --verbose`
 
 <p align="center">
-  <img src="images/about.svg" width="100%" alt="class PavanKumar(AIEngineer): AI Engineer @ Envision Beyond. Experience: Envision Beyond — e-Invoicing at 2,000+ docs/month, Graph API + Odoo CRM; Spire Technologies — Data Analyst Consultant, Python–SQL pipelines over 100K+ records. Builds AI agents, voice AI, RAG, enterprise ETL, LLM failover. B.E. CS (Data Science), MVJ College of Engineering, 2020–24. Certified: Google Data Analytics, HackerRank Python, HackerRank Problem Solving."/>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/about-light.svg"/><img src="images/about.svg" width="100%" alt="class PavanKumar(AIEngineer): AI Engineer @ Envision Beyond. Experience: Envision Beyond — e-Invoicing at 2,000+ docs/month, Graph API + Odoo CRM; Spire Technologies — Data Analyst Consultant, Python–SQL pipelines over 100K+ records. Builds AI agents, voice AI, RAG, enterprise ETL, LLM failover. B.E. CS (Data Science), MVJ College of Engineering, 2020–24. Certified: Google Data Analytics, HackerRank Python, HackerRank Problem Solving."/></picture>
 </p>
 
 ## 🚀 Things I've built
 
 <p align="center">
-  <a href="https://github.com/UPavankumar/discord-insights"><img src="images/projects/discord-insights.svg" width="49%" alt="Discord Insights — conversational analytics agent with AST-validated SQL, SSE streaming and 4-tier LLM failover"/></a>
-  <a href="https://portfolio-u-pavankumar.web.app"><img src="images/projects/aria.svg" width="49%" alt="Aria — real-time voice AI assistant over WebRTC with interruption handling"/></a>
+  <a href="https://github.com/UPavankumar/discord-insights"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/discord-insights-light.svg"/><img src="images/projects/discord-insights.svg" width="49%" alt="Discord Insights — conversational analytics agent with AST-validated SQL, SSE streaming and 4-tier LLM failover"/></picture></a>
+  <a href="https://portfolio-u-pavankumar.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/aria-light.svg"/><img src="images/projects/aria.svg" width="49%" alt="Aria — real-time voice AI assistant over WebRTC with interruption handling"/></picture></a>
 </p>
 <p align="center">
-  <a href="https://portfolio-u-pavankumar.web.app"><img src="images/projects/e-invoice.svg" width="49%" alt="e-Invoice Pipeline — multi-tenant ETL filing Malaysian LHDN e-Invoices, 2,000+ documents a month"/></a>
-  <a href="https://portfolio-u-pavankumar.web.app"><img src="images/projects/sales-agent.svg" width="49%" alt="AI Sales Agent — email ingestion, company research, personalised drafts and CRM sync"/></a>
+  <a href="https://portfolio-u-pavankumar.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/e-invoice-light.svg"/><img src="images/projects/e-invoice.svg" width="49%" alt="e-Invoice Pipeline — multi-tenant ETL filing Malaysian LHDN e-Invoices, 2,000+ documents a month"/></picture></a>
+  <a href="https://portfolio-u-pavankumar.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/sales-agent-light.svg"/><img src="images/projects/sales-agent.svg" width="49%" alt="AI Sales Agent — email ingestion, company research, personalised drafts and CRM sync"/></picture></a>
 </p>
 <p align="center">
-  <a href="https://github.com/UPavankumar/Portfolio_Assistant"><img src="images/projects/alfred.svg" width="49%" alt="Alfred — AI portfolio assistant grounded in a résumé knowledge base"/></a>
-  <a href="https://github.com/UPavankumar/Ecommerce-Churn-ML"><img src="images/projects/churn-ml.svg" width="49%" alt="E-commerce Churn ML — XGBoost churn prediction tuned with grid search"/></a>
+  <a href="https://github.com/UPavankumar/Portfolio_Assistant"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/alfred-light.svg"/><img src="images/projects/alfred.svg" width="49%" alt="Alfred — AI portfolio assistant grounded in a résumé knowledge base"/></picture></a>
+  <a href="https://github.com/UPavankumar/Ecommerce-Churn-ML"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/churn-ml-light.svg"/><img src="images/projects/churn-ml.svg" width="49%" alt="E-commerce Churn ML — XGBoost churn prediction tuned with grid search"/></picture></a>
 </p>
 
 ## 🏗️ Under the hood — Discord Insights
@@ -89,7 +89,7 @@ flowchart LR
 ## 🧰 Stack
 
 <p align="center">
-  <img src="images/stack.svg" width="100%" alt="Tech stack — AI & LLMs: Groq LLaMA, Whisper, Pipecat, Gemini, GPT-4o-mini, RAG, AI agents, prompt engineering. Backend & APIs: Python, FastAPI, Pydantic, REST, OAuth 2.0, SSE, WebRTC, React, Streamlit. Data & ML: PostgreSQL, SQL, MongoDB, sqlglot, XGBoost, scikit-learn, Power BI, Chart.js. Infra & integrations: Docker, AWS, Git, GitHub Actions, Microsoft Graph API, Odoo CRM, Firebase."/>
+  <picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/stack-light.svg"/><img src="images/stack.svg" width="100%" alt="Tech stack — AI & LLMs: Groq LLaMA, Whisper, Pipecat, Gemini, GPT-4o-mini, RAG, AI agents, prompt engineering. Backend & APIs: Python, FastAPI, Pydantic, REST, OAuth 2.0, SSE, WebRTC, React, Streamlit. Data & ML: PostgreSQL, SQL, MongoDB, sqlglot, XGBoost, scikit-learn, Power BI, Chart.js. Infra & integrations: Docker, AWS, Git, GitHub Actions, Microsoft Graph API, Odoo CRM, Firebase."/></picture>
 </p>
 
 ## 📈 Activity
@@ -103,7 +103,7 @@ flowchart LR
 </p>
 
 <p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=UPavankumar&mode=weekly&hide_border=true&border_radius=16&background=0D1117&stroke=30363D&ring=7C3AED&fire=A78BFA&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=A78BFA&sideLabels=8B949E&dates=6E7681&card_width=900" alt="GitHub streak"/></a>
+  <a href="https://git.io/streak-stats"><picture><source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=UPavankumar&mode=weekly&hide_border=true&border_radius=16&background=FFFFFF&stroke=D0D7DE&ring=7C3AED&fire=7C3AED&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=7C3AED&sideLabels=59636E&dates=6E7781&card_width=900"/><img src="https://streak-stats.demolab.com?user=UPavankumar&mode=weekly&hide_border=true&border_radius=16&background=0D1117&stroke=30363D&ring=7C3AED&fire=A78BFA&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=A78BFA&sideLabels=8B949E&dates=6E7681&card_width=900" alt="GitHub streak"/></picture></a>
 </p>
 
 ---

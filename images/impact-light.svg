@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="176" viewBox="0 0 1000 176" fill="none" role="img" aria-label="Impact: 2,000+ documents / month; 100K+ records processed; 6 AI &amp; ML systems built; 4 LLM fallback layers">
+<title>Impact: 2,000+ documents / month; 100K+ records processed; 6 AI &amp; ML systems built; 4 LLM fallback layers</title>
+<style>
+.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Inter,Arial,sans-serif}
+.mono{font-family:'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes pulse{from{opacity:.5}to{opacity:1}}
+@keyframes blink{50%{opacity:.2}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.card{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}</style>
+<defs>
+  <linearGradient id="num" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8B5CF6"/><stop offset=".5" stop-color="#7C3AED"/><stop offset="1" stop-color="#2563EB"/></linearGradient>
+  <linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#0891B2"/></linearGradient>
+</defs>
+<g class="card" style="animation-delay:0.00s">
+<clipPath id="c0"><rect x="1" y="1" width="233" height="174" rx="16"/></clipPath>
+<rect x="1" y="1" width="233" height="174" rx="16" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="0" y="0" width="235" height="3" fill="url(#top)" clip-path="url(#c0)"/>
+<text class="mono" x="24" y="38" font-size="11" letter-spacing="1.5" fill="#59636E">E-INVOICING</text>
+<text x="213" y="42" font-size="22" fill="#fff" text-anchor="end">📄</text>
+<text class="sans" x="22" y="96" font-size="46" font-weight="800" letter-spacing="-1" fill="url(#num)">2,000+</text>
+<text class="sans" x="24" y="126" font-size="14.5" fill="#424A53">documents / month</text>
+<text class="mono" x="24" y="150" font-size="12" fill="#6E7781">multi-tenant · LHDN</text>
+</g>
+<g class="card" style="animation-delay:0.12s">
+<clipPath id="c1"><rect x="256" y="1" width="233" height="174" rx="16"/></clipPath>
+<rect x="256" y="1" width="233" height="174" rx="16" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="255" y="0" width="235" height="3" fill="url(#top)" clip-path="url(#c1)"/>
+<text class="mono" x="279" y="38" font-size="11" letter-spacing="1.5" fill="#59636E">DATA ENGINEERING</text>
+<text x="468" y="42" font-size="22" fill="#fff" text-anchor="end">🗄️</text>
+<text class="sans" x="277" y="96" font-size="46" font-weight="800" letter-spacing="-1" fill="url(#num)">100K+</text>
+<text class="sans" x="279" y="126" font-size="14.5" fill="#424A53">records processed</text>
+<text class="mono" x="279" y="150" font-size="12" fill="#6E7781">python → sql pipelines</text>
+</g>
+<g class="card" style="animation-delay:0.24s">
+<clipPath id="c2"><rect x="511" y="1" width="233" height="174" rx="16"/></clipPath>
+<rect x="511" y="1" width="233" height="174" rx="16" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="510" y="0" width="235" height="3" fill="url(#top)" clip-path="url(#c2)"/>
+<text class="mono" x="534" y="38" font-size="11" letter-spacing="1.5" fill="#59636E">SHIPPED</text>
+<text x="723" y="42" font-size="22" fill="#fff" text-anchor="end">🤖</text>
+<text class="sans" x="532" y="96" font-size="46" font-weight="800" letter-spacing="-1" fill="url(#num)">6</text>
+<text class="sans" x="534" y="126" font-size="14.5" fill="#424A53">AI &amp; ML systems built</text>
+<text class="mono" x="534" y="150" font-size="12" fill="#6E7781">agents · voice · RAG · ML</text>
+</g>
+<g class="card" style="animation-delay:0.36s">
+<clipPath id="c3"><rect x="766" y="1" width="233" height="174" rx="16"/></clipPath>
+<rect x="766" y="1" width="233" height="174" rx="16" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="765" y="0" width="235" height="3" fill="url(#top)" clip-path="url(#c3)"/>
+<text class="mono" x="789" y="38" font-size="11" letter-spacing="1.5" fill="#59636E">RELIABILITY</text>
+<text x="978" y="42" font-size="22" fill="#fff" text-anchor="end">🛡️</text>
+<text class="sans" x="787" y="96" font-size="46" font-weight="800" letter-spacing="-1" fill="url(#num)">4</text>
+<text class="sans" x="789" y="126" font-size="14.5" fill="#424A53">LLM fallback layers</text>
+<text class="mono" x="789" y="150" font-size="12" fill="#6E7781">groq→gemini→gpt→offline</text>
+</g>
+</svg>
