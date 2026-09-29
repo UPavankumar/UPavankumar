@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://portfolio-u-pavankumar.web.app"><img src="images/buttons/portfolio.svg" height="44" alt="Portfolio"/></a>&nbsp;
+  <a href="https://pavan-kumar.is-a.dev"><img src="images/buttons/portfolio.svg" height="44" alt="Portfolio"/></a>&nbsp;
   <a href="https://linkedin.com/in/u-pavankumar"><img src="images/buttons/linkedin.svg" height="44" alt="LinkedIn"/></a>&nbsp;
   <a href="mailto:pavan.aidev@gmail.com"><img src="images/buttons/email.svg" height="44" alt="Email pavan.aidev@gmail.com"/></a>
 </p>
@@ -22,11 +22,11 @@
 
 <p align="center">
   <a href="https://github.com/UPavankumar/discord-insights"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/discord-insights-light.svg"/><img src="images/projects/discord-insights.svg" width="49%" alt="Discord Insights — conversational analytics agent with AST-validated SQL, SSE streaming and 4-tier LLM failover"/></picture></a>
-  <a href="https://portfolio-u-pavankumar.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/aria-light.svg"/><img src="images/projects/aria.svg" width="49%" alt="Aria — real-time voice AI assistant over WebRTC with interruption handling"/></picture></a>
+  <a href="https://pavan-kumar.is-a.dev"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/aria-light.svg"/><img src="images/projects/aria.svg" width="49%" alt="Aria — real-time voice AI assistant over WebRTC with interruption handling"/></picture></a>
 </p>
 <p align="center">
-  <a href="https://portfolio-u-pavankumar.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/e-invoice-light.svg"/><img src="images/projects/e-invoice.svg" width="49%" alt="e-Invoice Pipeline — multi-tenant ETL filing Malaysian LHDN e-Invoices, 2,000+ documents a month"/></picture></a>
-  <a href="https://portfolio-u-pavankumar.web.app"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/sales-agent-light.svg"/><img src="images/projects/sales-agent.svg" width="49%" alt="AI Sales Agent — email ingestion, company research, personalised drafts and CRM sync"/></picture></a>
+  <a href="https://pavan-kumar.is-a.dev"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/e-invoice-light.svg"/><img src="images/projects/e-invoice.svg" width="49%" alt="e-Invoice Pipeline — multi-tenant ETL filing Malaysian LHDN e-Invoices, 2,000+ documents a month"/></picture></a>
+  <a href="https://pavan-kumar.is-a.dev"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/sales-agent-light.svg"/><img src="images/projects/sales-agent.svg" width="49%" alt="AI Sales Agent — email ingestion, company research, personalised drafts and CRM sync"/></picture></a>
 </p>
 <p align="center">
   <a href="https://github.com/UPavankumar/Portfolio_Assistant"><picture><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UPavankumar/UPavankumar/main/images/projects/alfred-light.svg"/><img src="images/projects/alfred.svg" width="49%" alt="Alfred — AI portfolio assistant grounded in a résumé knowledge base"/></picture></a>
