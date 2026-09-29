@@ -389,12 +389,73 @@ def button(slug, label, bg):
     write(f"buttons/{slug}.svg", "".join(s))
 
 
+# --------------------------------------------------------------------------- about-me editor card
+ABOUT = [
+    'class PavanKumar(AIEngineer):',
+    '    """Turns manual business queues into AI systems that run on their own."""',
+    '',
+    '    role       = "AI Engineer @ Envision Beyond"',
+    '    experience = {',
+    '        "Envision Beyond":    "e-Invoicing at 2,000+ docs/mo · Graph API + Odoo CRM",',
+    '        "Spire Technologies": "Data Analyst Consultant · Python–SQL, 100K+ records",',
+    '    }',
+    '    builds     = ["AI agents", "voice AI", "RAG", "enterprise ETL", "LLM failover"]',
+    '    education  = "B.E. CS (Data Science) · MVJ College of Engineering · 2020–24"',
+    '    certified  = ["Google Data Analytics", "HackerRank Python", "HackerRank Problem Solving"]',
+]
+
+
+def _tokens(line):
+    import re
+    out, pos = [], 0
+    pat = re.compile(r'(?P<doc>""".*?""")|(?P<str>"[^"]*")|(?P<kw>\bclass\b)|(?P<cls>\b[A-Z][A-Za-z]+\b)'
+                     r'|(?P<attr>^\s+[a-z_]+(?=\s*=))')
+    for m in pat.finditer(line):
+        if m.start() > pos:
+            out.append((line[pos:m.start()], "#E6EDF3"))
+        kind = m.lastgroup
+        color = {"doc": "#8B949E", "str": "#A5D6FF", "kw": "#FF7B72", "cls": "#D2A8FF", "attr": "#79C0FF"}[kind]
+        out.append((m.group(), color))
+        pos = m.end()
+    if pos < len(line):
+        out.append((line[pos:], "#E6EDF3"))
+    return out
+
+
+def about():
+    W, lh, top = 900, 24, 38
+    H = top + 22 + lh * len(ABOUT) + 16
+    css = ".r{animation:rise .8s cubic-bezier(.2,.7,.2,1) both}.cur{animation:blink 1.1s steps(1) infinite}"
+    s = [svg_open(W, H, "whoami --verbose: " + " ".join(l.strip() for l in ABOUT), css)]
+    s.append(f'<defs><clipPath id="ed"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14"/></clipPath>'
+             f'<linearGradient id="top" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7C3AED"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>\n')
+    s.append(f'<g class="r"><rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="14" fill="#0D1117"/>\n'
+             f'<g clip-path="url(#ed)"><rect width="{W}" height="{top}" fill="#161B22"/><rect y="{top}" width="{W}" height="1" fill="#21262D"/>'
+             f'<rect width="{W}" height="2" fill="url(#top)"/><rect y="{top + 1}" width="46" height="{H}" fill="#0B0E14"/></g>\n'
+             f'<rect x="1.5" y="1.5" width="{W - 3}" height="{H - 3}" rx="13.5" stroke="#30363D"/>\n')
+    for k, c in enumerate(["#FF5F56", "#FFBD2E", "#27C93F"]):
+        s.append(f'<circle cx="{22 + k * 20}" cy="{top / 2}" r="6" fill="{c}"/>')
+    s.append(f'<rect x="96" y="7" width="150" height="{top - 7}" rx="6" fill="#0D1117"/>'
+             f'<text class="mono" x="112" y="{top / 2 + 5}" font-size="12.5" fill="#E6EDF3">🐍 pavan_kumar.py</text>\n'
+             f'<text class="mono" x="{W - 20}" y="{top / 2 + 5}" font-size="12" fill="#6E7681" text-anchor="end">python · utf-8</text>\n')
+    y = top + 30
+    for n, line in enumerate(ABOUT, 1):
+        s.append(f'<text class="mono" x="32" y="{y}" font-size="13" fill="#484F58" text-anchor="end">{n}</text>')
+        spans = "".join(f'<tspan fill="{c}">{esc(t)}</tspan>' for t, c in _tokens(line))
+        cur = '<tspan class="cur" fill="#A78BFA">▋</tspan>' if n == len(ABOUT) else ""
+        s.append(f'<text class="mono" x="62" y="{y}" font-size="14.5" xml:space="preserve">{spans}{cur}</text>\n')
+        y += lh
+    s.append("</g>\n</svg>\n")
+    write("about.svg", "".join(s))
+
+
 if __name__ == "__main__":
     hero()
     impact()
     for p in PROJECTS:
         project(*p)
     stack()
+    about()
     button("portfolio", "Portfolio", "grad")
     button("linkedin", "LinkedIn", "#0A66C2")
     button("email", "Email", "#1F2937")

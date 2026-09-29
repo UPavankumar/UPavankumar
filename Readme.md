@@ -14,19 +14,9 @@
 
 ## ⚡ `whoami --verbose`
 
-```python
-class PavanKumar(AIEngineer):
-    """I turn manual business queues into AI systems that run on their own."""
-
-    role       = "AI Engineer @ Envision Beyond"
-    experience = {
-        "Envision Beyond":    "multi-tenant e-Invoicing (2,000+ docs/mo) · Graph API + Odoo CRM automation",
-        "Spire Technologies": "Data Analyst Consultant · Python–SQL pipelines, 100K+ records",
-    }
-    builds     = ["AI agents", "real-time voice AI", "RAG", "enterprise ETL", "LLM failover"]
-    education  = "B.E. Computer Science (Data Science) · MVJ College of Engineering · 2020–24"
-    certified  = ["Google Data Analytics (Coursera)", "HackerRank: Python", "HackerRank: Problem Solving"]
-```
+<p align="center">
+  <img src="images/about.svg" width="100%" alt="class PavanKumar(AIEngineer): AI Engineer @ Envision Beyond. Experience: Envision Beyond — e-Invoicing at 2,000+ docs/month, Graph API + Odoo CRM; Spire Technologies — Data Analyst Consultant, Python–SQL pipelines over 100K+ records. Builds AI agents, voice AI, RAG, enterprise ETL, LLM failover. B.E. CS (Data Science), MVJ College of Engineering, 2020–24. Certified: Google Data Analytics, HackerRank Python, HackerRank Problem Solving."/>
+</p>
 
 ## 🚀 Things I've built
 
