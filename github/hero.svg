@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-label="Pavan Kumar — AI Engineer building AI agents, real-time voice AI and automation">
+<title>Pavan Kumar — AI Engineer building AI agents, real-time voice AI and automation</title>
+<style>
+.sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Inter,Arial,sans-serif}
+.mono{font-family:'SF Mono','JetBrains Mono','Fira Code',Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@keyframes pulse{from{opacity:.5}to{opacity:1}}
+@keyframes blink{50%{opacity:.2}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.glow{animation:pulse 7s ease-in-out infinite alternate}
+.glow.g2{animation-delay:-3.5s}
+.bar{transform-box:fill-box;transform-origin:center;animation:eq 1.1s ease-in-out infinite alternate}
+@keyframes eq{from{transform:scaleY(.18)}to{transform:scaleY(1)}}
+.r{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.live{animation:blink 1.6s ease-in-out infinite}
+.p{fill:#A78BFA}.c{fill:#E6EDF3}.o{fill:#8B949E}.h{fill:#C4B5FD}.ok{fill:#3FB950}.dim{fill:#484F58}.bl{fill:#79C0FF}
+</style>
+<defs>
+  <clipPath id="card"><rect width="1200" height="420" rx="24"/></clipPath>
+  <linearGradient id="border" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#30363D"/><stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient>
+  <linearGradient id="name" x1="60" y1="0" x2="560" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+    <stop stop-color="#C4B5FD"/><stop offset=".35" stop-color="#A78BFA"/><stop offset=".7" stop-color="#60A5FA"/><stop offset="1" stop-color="#22D3EE"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1000 0" dur="9s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="wave" x1="64" y1="0" x2="370" y2="0" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient>
+  <radialGradient id="gv"><stop stop-color="#7C3AED" stop-opacity=".55"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+  <radialGradient id="gc"><stop stop-color="#0EA5E9" stop-opacity=".35"/><stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#30363D"/></pattern>
+  <radialGradient id="fade" cx=".35" cy=".4" r=".8"><stop stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <mask id="gridmask"><rect width="1200" height="420" fill="url(#fade)"/></mask>
+  <clipPath id="term"><rect x="660" y="52" width="480" height="316" rx="14"/></clipPath>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity=".55"/></filter>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1200" height="420" fill="#0B0E14"/>
+<rect width="1200" height="420" fill="url(#dots)" mask="url(#gridmask)"/>
+<circle class="glow" cx="140" cy="40" r="420" fill="url(#gv)"/>
+<circle class="glow g2" cx="1120" cy="430" r="400" fill="url(#gc)"/>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="418.5" rx="23.25" stroke="url(#border)" stroke-width="1.5"/>
+<text class="mono r" x="64" y="110" font-size="15" fill="#6E7681" letter-spacing="1">// hello world, i'm</text>
+<text class="sans r" x="60" y="186" font-size="72" font-weight="800" letter-spacing="-1.5" fill="url(#name)" style="animation-delay:.1s">Pavan Kumar</text>
+<text class="sans r" x="64" y="236" font-size="21" fill="#8B949E" style="animation-delay:.2s">I build <tspan fill="#E6EDF3" font-weight="600">AI agents</tspan>, <tspan fill="#E6EDF3" font-weight="600">real-time voice AI</tspan> and</text>
+<text class="sans r" x="64" y="266" font-size="21" fill="#8B949E" style="animation-delay:.25s"><tspan fill="#E6EDF3" font-weight="600">automation</tspan> that runs real operations.</text>
+<g class="r" style="animation-delay:.35s">
+<rect x="64.0" y="296" width="96.2" height="30" rx="15" fill="#1E1433" stroke="#7C3AED"/><text class="mono" x="112.1" y="316" font-size="13" fill="#C4B5FD" text-anchor="middle">AI agents</text>
+<rect x="170.2" y="296" width="88.4" height="30" rx="15" fill="#161B22" stroke="#30363D"/><text class="mono" x="214.4" y="316" font-size="13" fill="#C9D1D9" text-anchor="middle">voice AI</text>
+<rect x="268.6" y="296" width="49.4" height="30" rx="15" fill="#161B22" stroke="#30363D"/><text class="mono" x="293.3" y="316" font-size="13" fill="#C9D1D9" text-anchor="middle">RAG</text>
+<rect x="328.0" y="296" width="80.6" height="30" rx="15" fill="#161B22" stroke="#30363D"/><text class="mono" x="368.3" y="316" font-size="13" fill="#C9D1D9" text-anchor="middle">FastAPI</text>
+<rect x="418.6" y="296" width="104.0" height="30" rx="15" fill="#161B22" stroke="#30363D"/><text class="mono" x="470.6" y="316" font-size="13" fill="#C9D1D9" text-anchor="middle">automation</text>
+</g>
+<g class="r" style="animation-delay:.45s">
+<rect class="bar" x="64" y="370.4" width="4" height="7.3" rx="2" fill="url(#wave)" style="animation-duration:1.00s;animation-delay:-1.20s"/>
+<rect class="bar" x="73" y="369.9" width="4" height="8.3" rx="2" fill="url(#wave)" style="animation-duration:0.96s;animation-delay:-0.76s"/>
+<rect class="bar" x="82" y="370.2" width="4" height="7.6" rx="2" fill="url(#wave)" style="animation-duration:0.96s;animation-delay:-0.82s"/>
+<rect class="bar" x="91" y="367.4" width="4" height="13.1" rx="2" fill="url(#wave)" style="animation-duration:0.63s;animation-delay:-0.39s"/>
+<rect class="bar" x="100" y="369.5" width="4" height="9.0" rx="2" fill="url(#wave)" style="animation-duration:1.20s;animation-delay:-0.90s"/>
+<rect class="bar" x="109" y="369.2" width="4" height="9.6" rx="2" fill="url(#wave)" style="animation-duration:1.34s;animation-delay:-1.25s"/>
+<rect class="bar" x="118" y="365.6" width="4" height="16.8" rx="2" fill="url(#wave)" style="animation-duration:1.04s;animation-delay:-0.20s"/>
+<rect class="bar" x="127" y="368.4" width="4" height="11.2" rx="2" fill="url(#wave)" style="animation-duration:0.97s;animation-delay:-0.08s"/>
+<rect class="bar" x="136" y="366.9" width="4" height="14.2" rx="2" fill="url(#wave)" style="animation-duration:0.74s;animation-delay:-0.04s"/>
+<rect class="bar" x="145" y="364.7" width="4" height="18.7" rx="2" fill="url(#wave)" style="animation-duration:0.90s;animation-delay:-1.10s"/>
+<rect class="bar" x="154" y="363.7" width="4" height="20.5" rx="2" fill="url(#wave)" style="animation-duration:1.06s;animation-delay:-0.65s"/>
+<rect class="bar" x="163" y="362.2" width="4" height="23.6" rx="2" fill="url(#wave)" style="animation-duration:0.92s;animation-delay:-0.36s"/>
+<rect class="bar" x="172" y="359.2" width="4" height="29.5" rx="2" fill="url(#wave)" style="animation-duration:1.35s;animation-delay:-1.09s"/>
+<rect class="bar" x="181" y="361.0" width="4" height="26.0" rx="2" fill="url(#wave)" style="animation-duration:0.80s;animation-delay:-0.30s"/>
+<rect class="bar" x="190" y="363.9" width="4" height="20.1" rx="2" fill="url(#wave)" style="animation-duration:0.61s;animation-delay:-1.00s"/>
+<rect class="bar" x="199" y="362.9" width="4" height="22.2" rx="2" fill="url(#wave)" style="animation-duration:1.23s;animation-delay:-0.50s"/>
+<rect class="bar" x="208" y="358.4" width="4" height="31.3" rx="2" fill="url(#wave)" style="animation-duration:1.23s;animation-delay:-0.00s"/>
+<rect class="bar" x="217" y="364.3" width="4" height="19.3" rx="2" fill="url(#wave)" style="animation-duration:1.28s;animation-delay:-0.61s"/>
+<rect class="bar" x="226" y="358.3" width="4" height="31.4" rx="2" fill="url(#wave)" style="animation-duration:0.87s;animation-delay:-0.09s"/>
+<rect class="bar" x="235" y="361.3" width="4" height="25.4" rx="2" fill="url(#wave)" style="animation-duration:1.17s;animation-delay:-0.35s"/>
+<rect class="bar" x="244" y="365.7" width="4" height="16.6" rx="2" fill="url(#wave)" style="animation-duration:0.82s;animation-delay:-1.25s"/>
+<rect class="bar" x="253" y="361.0" width="4" height="26.0" rx="2" fill="url(#wave)" style="animation-duration:0.64s;animation-delay:-0.32s"/>
+<rect class="bar" x="262" y="366.2" width="4" height="15.6" rx="2" fill="url(#wave)" style="animation-duration:0.60s;animation-delay:-1.04s"/>
+<rect class="bar" x="271" y="366.0" width="4" height="15.9" rx="2" fill="url(#wave)" style="animation-duration:1.00s;animation-delay:-0.58s"/>
+<rect class="bar" x="280" y="366.4" width="4" height="15.2" rx="2" fill="url(#wave)" style="animation-duration:1.14s;animation-delay:-0.17s"/>
+<rect class="bar" x="289" y="364.2" width="4" height="19.6" rx="2" fill="url(#wave)" style="animation-duration:0.64s;animation-delay:-0.55s"/>
+<rect class="bar" x="298" y="367.3" width="4" height="13.4" rx="2" fill="url(#wave)" style="animation-duration:0.77s;animation-delay:-1.26s"/>
+<rect class="bar" x="307" y="364.9" width="4" height="18.3" rx="2" fill="url(#wave)" style="animation-duration:0.79s;animation-delay:-1.15s"/>
+<rect class="bar" x="316" y="368.4" width="4" height="11.1" rx="2" fill="url(#wave)" style="animation-duration:0.87s;animation-delay:-1.11s"/>
+<rect class="bar" x="325" y="367.2" width="4" height="13.5" rx="2" fill="url(#wave)" style="animation-duration:0.63s;animation-delay:-1.29s"/>
+<rect class="bar" x="334" y="369.6" width="4" height="8.9" rx="2" fill="url(#wave)" style="animation-duration:0.76s;animation-delay:-1.00s"/>
+<rect class="bar" x="343" y="369.7" width="4" height="8.6" rx="2" fill="url(#wave)" style="animation-duration:0.79s;animation-delay:-0.10s"/>
+<rect class="bar" x="352" y="370.9" width="4" height="6.2" rx="2" fill="url(#wave)" style="animation-duration:1.02s;animation-delay:-0.32s"/>
+<rect class="bar" x="361" y="370.0" width="4" height="8.0" rx="2" fill="url(#wave)" style="animation-duration:0.85s;animation-delay:-0.59s"/>
+<circle class="live" cx="392" cy="370" r="4" fill="#3FB950"/><text class="mono" x="404" y="374" font-size="13" fill="#6E7681">stt → llm → tts</text>
+</g>
+<g class="r" style="animation-delay:.15s">
+<g filter="url(#shadow)"><rect x="660" y="52" width="480" height="316" rx="14" fill="#0D1117"/></g>
+<g clip-path="url(#term)"><rect x="660" y="52" width="480" height="38" fill="#161B22"/><rect x="660" y="90" width="480" height="1" fill="#21262D"/></g>
+<rect x="660.5" y="52.5" width="479" height="315" rx="13.5" stroke="#30363D"/>
+<circle cx="682" cy="71" r="6" fill="#FF5F56"/><circle cx="702" cy="71" r="6" fill="#FFBD2E"/><circle cx="722" cy="71" r="6" fill="#27C93F"/>
+<text class="mono" x="900.0" y="76" font-size="12.5" fill="#8B949E" text-anchor="middle">pavan@ai-lab: ~/prod</text>
+<text class="mono" x="684" y="124" font-size="16" xml:space="preserve"><tspan class="p"><set attributeName="fill-opacity" to="0" dur="0.60s"/>$ </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="0.85s"/>w</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="0.92s"/>h</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="0.98s"/>o</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="1.04s"/>a</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="1.11s"/>m</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="1.17s"/>i</tspan></text>
+<text class="mono" x="684" y="151" font-size="16" xml:space="preserve"><tspan class="c"><set attributeName="fill-opacity" to="0" dur="1.54s"/>pavan kumar</tspan><tspan class="dim"><set attributeName="fill-opacity" to="0" dur="1.54s"/> — </tspan><tspan class="h"><set attributeName="fill-opacity" to="0" dur="1.54s"/>ai engineer</tspan></text>
+<text class="mono" x="684" y="178" font-size="16" xml:space="preserve"><tspan class="p"><set attributeName="fill-opacity" to="0" dur="1.89s"/>$ </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.14s"/>c</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.20s"/>a</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.27s"/>t</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.33s"/> </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.40s"/>f</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.46s"/>o</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.53s"/>c</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.59s"/>u</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.66s"/>s</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.72s"/>.</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.79s"/>t</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.85s"/>x</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="2.92s"/>t</tspan></text>
+<text class="mono" x="684" y="205" font-size="16" xml:space="preserve"><tspan class="p"><set attributeName="fill-opacity" to="0" dur="3.28s"/>→ </tspan><tspan class="o"><set attributeName="fill-opacity" to="0" dur="3.28s"/>agents that run real operations, not demos</tspan></text>
+<text class="mono" x="684" y="232" font-size="16" xml:space="preserve"><tspan class="p"><set attributeName="fill-opacity" to="0" dur="3.63s"/>$ </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="3.88s"/>l</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="3.95s"/>l</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.01s"/>m</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.08s"/> </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.14s"/>-</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.21s"/>-</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.28s"/>f</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.34s"/>a</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.41s"/>i</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.47s"/>l</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.54s"/>o</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.60s"/>v</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.67s"/>e</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="4.73s"/>r</tspan></text>
+<text class="mono" x="684" y="259" font-size="16" xml:space="preserve"><tspan class="bl"><set attributeName="fill-opacity" to="0" dur="5.10s"/>groq</tspan><tspan class="dim"><set attributeName="fill-opacity" to="0" dur="5.32s"/> ─▶ </tspan><tspan class="bl"><set attributeName="fill-opacity" to="0" dur="5.32s"/>gemini</tspan><tspan class="dim"><set attributeName="fill-opacity" to="0" dur="5.54s"/> ─▶ </tspan><tspan class="bl"><set attributeName="fill-opacity" to="0" dur="5.54s"/>gpt-4o-mini</tspan><tspan class="dim"><set attributeName="fill-opacity" to="0" dur="5.76s"/> ─▶ </tspan><tspan class="bl"><set attributeName="fill-opacity" to="0" dur="5.76s"/>offline</tspan><tspan class="ok"><set attributeName="fill-opacity" to="0" dur="6.01s"/>  ✓</tspan></text>
+<text class="mono" x="684" y="286" font-size="16" xml:space="preserve"><tspan class="p"><set attributeName="fill-opacity" to="0" dur="6.36s"/>$ </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="6.61s"/>d</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="6.67s"/>e</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="6.74s"/>p</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="6.80s"/>l</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="6.87s"/>o</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="6.93s"/>y</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.00s"/> </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.06s"/>-</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.13s"/>-</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.19s"/>e</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.26s"/>n</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.32s"/>v</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.39s"/> </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.45s"/>p</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.52s"/>r</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.58s"/>o</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.65s"/>d</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.71s"/>u</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.78s"/>c</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.84s"/>t</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.91s"/>i</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="7.97s"/>o</tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="8.04s"/>n</tspan></text>
+<text class="mono" x="684" y="313" font-size="16" xml:space="preserve"><tspan class="ok"><set attributeName="fill-opacity" to="0" dur="8.40s"/>✓ </tspan><tspan class="o"><set attributeName="fill-opacity" to="0" dur="8.40s"/>tests</tspan><tspan class="ok"><set attributeName="fill-opacity" to="0" dur="8.70s"/>   ✓ </tspan><tspan class="o"><set attributeName="fill-opacity" to="0" dur="8.70s"/>build</tspan><tspan class="ok"><set attributeName="fill-opacity" to="0" dur="9.00s"/>   ✓ </tspan><tspan class="c"><set attributeName="fill-opacity" to="0" dur="9.00s"/>shipped</tspan></text>
+<text class="mono" x="684" y="340" font-size="16" xml:space="preserve"><tspan class="p"><set attributeName="fill-opacity" to="0" dur="9.35s"/>$ </tspan><tspan class="p"><set attributeName="fill-opacity" to="0" dur="9.35s"/><animate attributeName="fill-opacity" values="1;0" calcMode="discrete" dur="1.1s" begin="9.35s" repeatCount="indefinite"/>▋</tspan></text>
+</g>
+</svg>
